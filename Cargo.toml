@@ -14,11 +14,11 @@ documentation = "https://docs.rs/actix-web-validator/"
 [dependencies]
 actix-web = { version = "4", default-features = false }
 actix-http = { version = "3" }
-validator = { version = "0.19" }
+validator = { version = "0.20" }
 serde = "1"
 serde_urlencoded = "0.7"
 serde_json = "1"
-serde_qs = { version = "0.13", features = ["actix4"] }
+serde_qs = { version = "0.14", features = ["actix4"] }
 log = "0.4"
 futures = "0.3"
 mime = "0.3"
@@ -29,6 +29,6 @@ thiserror = "2.0"
 
 [dev-dependencies]
 actix-web = { version = "4", default-features = false, features = ["macros"] }
-validator = { version = "0.19", features = ["derive"]}
+validator = { version = "0.20", features = ["derive"]}
 serde = { version = "1", features = ["derive"] }
 actix-service = "2"
